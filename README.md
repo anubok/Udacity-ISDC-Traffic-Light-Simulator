@@ -4,7 +4,8 @@ Project Overview
 Traffic Light Classifier
 In this project, you’ll use your knowledge of computer vision techniques to build a classifier for images of traffic lights! You'll be given a dataset of traffic light images in which one of three lights is illuminated: red, yellow, or green.
 
-![](images)
+![](image1.png)
+
 Images from the dataset. Left to right: red, green, and yellow traffic lights.
 
 Classification Steps
@@ -14,11 +15,13 @@ In the provided notebook, you'll pre-process these images, extract features that
 
 2. Pre-processing. The input images and output labels need to be standardized; that is, all the input should be of the same type of data and of the same size, and the output should be a numerical label. This way, you can analyze all the input images using the same procedures, and you know what output to expect when you eventually classify a new image.
 
+![](image2.png)
 
 Pre-processed, standardized images
 
 3. Feature extraction. Next, you'll extract some features from each image that will be used to distinguish and classify these images. This is where you have a lot of creativity; features should be 1D vectors or even single values that provide some information about an image that can help classify it as a red, yellow, or green traffic light.
 
+![](image3.png)
 
 An example of feature extraction steps
 
